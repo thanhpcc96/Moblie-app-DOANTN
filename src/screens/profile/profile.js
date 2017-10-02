@@ -6,7 +6,7 @@ import {
 class Profile extends Component {
     static navigationOptions = {
         title: 'Profile',
-        headerBackTitle:<Text>Tro ve</Text>
+        headerBackTitle:'T'
     }
     render() {
         return (
