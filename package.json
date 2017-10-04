@@ -6,15 +6,24 @@
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
+    "@appandflow/touchable": "^1.2.2",
     "@expo/vector-icons": "^5.2.0",
     "axios": "^0.16.2",
     "expo": "^20.0.0",
     "react": "16.0.0-alpha.12",
     "react-native": "https://github.com/expo/react-native/archive/sdk-20.0.0.tar.gz",
+    "react-native-elements": "^0.17.0",
     "react-native-extended-stylesheet": "^0.6.0",
     "react-navigation": "^1.0.0-beta.13",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-form": "^7.0.4",
+    "redux-persist": "^4.10.1",
+    "redux-promise-middleware": "^4.4.1",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.2.1"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
   }
 }
