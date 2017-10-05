@@ -40,6 +40,6 @@ export default TabNavigator({
         })
     },
     Trackings:{
-        screen: 
+        screen: HomeScreen
     }
 });
