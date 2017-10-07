@@ -5,5 +5,9 @@
   "strict": false,
   "minify": false,
   "urlType": "exp",
+<<<<<<< HEAD
   "urlRandomness": "iq-s5u"
+=======
+  "urlRandomness": "ij-xxj"
+>>>>>>> d36d053b1f2e7b0bff9a49893c4383b18d3c8288
 }
