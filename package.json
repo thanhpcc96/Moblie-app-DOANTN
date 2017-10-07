@@ -24,7 +24,10 @@
     "styled-components": "^2.2.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
     "eslint-config-equimper": "^2.2.1",
+>>>>>>> d36d053b1f2e7b0bff9a49893c4383b18d3c8288
     "redux-logger": "^3.0.6"
   }
 }
