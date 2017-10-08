@@ -52,4 +52,3 @@ module.exports = {
     'react/sort-comp': ERROR,
   },
 };
-πpac
