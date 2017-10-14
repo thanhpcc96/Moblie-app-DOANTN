@@ -11,15 +11,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   containerTimerText: {
-    flex: 4,
+    flex: 4.4,
     justifyContent: 'center',
     alignItems: 'center',
     position: 'relative',
   },
   containerIconBell: {
-    flex: 1,
+    flex: 0.6,
     justifyContent: 'center',
     alignItems: 'center',
+    marginRight:'2.5%'
   },
   timeTitle: {
     color: '#fff',

@@ -11,7 +11,7 @@ import {
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 // import Component
-import TimerNotification from './components/TimerNotification';
+import { TimerNotification, MainSelect } from './components';
 
 import styles from './styles/HomeScreen.style';
 
@@ -32,15 +32,17 @@ class HomeScreen extends Component {
               style={styles.avata}
             />
           </View>
-          <View>
-
-          </View>
+          <View />
           <View style={styles.statusClient}>
-              <Text style={styles.textNameClient}>Thanh Pham</Text>
-
+            <View style={styles.textItemStatus}>
+              <Text style={styles.textItem}>Thanh Pham</Text>
+            </View>
+            <View style={styles.textItemStatus}>
+              <Text style={styles.textItem}>100</Text>
+            </View>
           </View>
           <View style={styles.mainMenuPrimary}>
-            <ScrollView />
+            <MainSelect />
           </View>
         </View>
       </View>

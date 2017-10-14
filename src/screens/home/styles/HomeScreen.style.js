@@ -30,20 +30,25 @@ const styles = StyleSheet.create({
   statusClient: {
     width: '100%',
     flexDirection: 'row',
-    backgroundColor: 'rgba(10,140, 245, 0.21)',
+    backgroundColor: 'rgba(38,17, 56, 0.5)',
     flex: 0.5,
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: -25,
   },
-  textNameClient: {
+  textItemStatus:{
+    flex: 0.5,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  textItem: {
     fontSize: 17,
     color: '#fff',
     fontWeight:'bold'
   },
   mainMenuPrimary: {
     flex: 6,
-    backgroundColor: 'red',
+    backgroundColor: '#EDECE7',
   },
 });
 export default styles;
