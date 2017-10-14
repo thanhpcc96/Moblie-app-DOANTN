@@ -1,24 +1,16 @@
 import React from 'react';
-import Expo, { AppLoading } from 'expo';
-import { AsyncStorage, UIManager } from 'react-native';
+import { AsyncStorage, UIManager, View } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
-import Colors from './constains/color';
+import HomeScreen from './src/screens/home/HomeScreen';
 
 if (UIManager.setLayoutAnimationEnabledExperimental) {
   UIManager.setLayoutAnimationEnabledExperimental(true);
 }
-EStyleSheet.build(Colors)
+// `EStyleSheet.build(Colors)`
 
 export default class App extends React.Component {
   render() {
-    return (
-      <View>
-        <Text> Test man hinh chinh</Text>
-      </View>
-    );
+    return <HomeScreen />;
   }
 }
-Expo.registerRootComponent(App);
-
-
