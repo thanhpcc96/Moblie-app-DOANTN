@@ -10,37 +10,40 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5F3EE',
     width: '100%',
   },
-  timerChuyenXe: {
+  timerNotification: {
     flex: 0.1,
     backgroundColor: '#4E94E5',
     justifyContent: 'center',
     alignItems: 'center',
-    flexDirection: 'row',
-  },
-  containerTimerText: {
-    flex: 0.5,
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'relative',
-  },
-  containerIconBell: {
-    flex: 0.1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  timeTitle: {
-    color: '#fff',
-    fontSize: 22,
-    position: 'absolute',
-  },
-  timeCountDown: {
-    position: 'absolute',
-    fontSize: 14,
-    color: '#fff',
   },
   mainContainer: {
     flex: 0.9,
     backgroundColor: '#466',
+  },
+  mainImageAvatar: {
+    flex: 3,
+  },
+  avata: {
+    width: 375,
+    height: 205,
+  },
+  statusClient: {
+    width: '100%',
+    flexDirection: 'row',
+    backgroundColor: 'rgba(10,140, 245, 0.21)',
+    flex: 0.5,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: -25,
+  },
+  textNameClient: {
+    fontSize: 17,
+    color: '#fff',
+    fontWeight:'bold'
+  },
+  mainMenuPrimary: {
+    flex: 6,
+    backgroundColor: 'red',
   },
 });
 export default styles;
